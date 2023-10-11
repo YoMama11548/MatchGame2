@@ -40,7 +40,7 @@ namespace MatchGame_
         {
             tenthsOfSecondsElapsed++;
             timeTextBlock.Text = (tenthsOfSecondsElapsed / 10F).ToString("0.0s");
-            if (matchesFound == 8)
+            if (matchesFound == 12)
             {
                 timer.Stop();
                 timeTextBlock.Text = timeTextBlock.Text + " - Play again?";
@@ -59,6 +59,10 @@ namespace MatchGame_
                 "🦐","🦐",
                 "🦉","🦉",
                 "🦅","🦅",
+                "🐹","🐹",
+                "🦄","🦄",
+                "🦥","🦥",
+                "🐧","🐧",
             };
 
 
@@ -107,7 +111,7 @@ namespace MatchGame_
 
         private void timeTextBlock_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            if (matchesFound == 8)
+            if (matchesFound == 12)
             {
                 SetUpGame();
             }

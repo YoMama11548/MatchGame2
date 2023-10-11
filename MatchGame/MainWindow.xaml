@@ -6,8 +6,10 @@
         xmlns:local="clr-namespace:MatchGame_"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid x:Name="mainGrid">
+    <Grid x:Name="mainGrid" Background="DarkRed">
         <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
             <ColumnDefinition/>
             <ColumnDefinition/>
             <ColumnDefinition/>
@@ -21,31 +23,45 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" MouseDown="TextBlock_MouseDown"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" MouseDown="TextBlock_MouseDown"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="3" MouseDown="TextBlock_MouseDown"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="3" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="4" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="5" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
         <TextBlock Text="?" FontSize="36" Grid.Row="1" Grid.Column="1"
-HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown"/>
+HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
         <TextBlock Text="?" FontSize="36" Grid.Row="1" Grid.Column="2"
-HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown"/>
+HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
         <TextBlock Text="?" FontSize="36" Grid.Row="1" Grid.Column="3"
-HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown"/>
-        <TextBlock Text="?" FontSize="36" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown"/>
+HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
+        <TextBlock Text="?" FontSize="36" Grid.Row="1" Grid.Column="4"
+HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
+        <TextBlock Text="?" FontSize="36" Grid.Row="1" Grid.Column="5"
+HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
+        <TextBlock Text="?" FontSize="36" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
         <TextBlock Text="?" FontSize="36" Grid.Row="2" Grid.Column="1"
-HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown"/>
+HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
         <TextBlock Text="?" FontSize="36" Grid.Row="2" Grid.Column="2"
-HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown"/>
+HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
         <TextBlock Text="?" FontSize="36" Grid.Row="2" Grid.Column="3"
-HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown"/>
-        <TextBlock Text="?" FontSize="36" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown"/>
+HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
+        <TextBlock Text="?" FontSize="36" Grid.Row="2" Grid.Column="4"
+HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
+        <TextBlock Text="?" FontSize="36" Grid.Row="2" Grid.Column="5"
+HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
+        <TextBlock Text="?" FontSize="36" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
         <TextBlock Text="?" FontSize="36" Grid.Row="3" Grid.Column="1"
-HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown"/>
+HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
         <TextBlock Text="?" FontSize="36" Grid.Row="3" Grid.Column="2"
-HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown"/>
+HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
         <TextBlock Text="?" FontSize="36" Grid.Row="3" Grid.Column="3"
-HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown"/>
-        <TextBlock x:Name="timeTextBlock" HorizontalAlignment="Left" Grid.Row="4" TextWrapping="Wrap" Text="Elapsed time" VerticalAlignment="Top" Grid.ColumnSpan="4" FontSize="36" MouseDown="timeTextBlock_MouseDown"/>
+HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
+        <TextBlock Text="?" FontSize="36" Grid.Row="3" Grid.Column="4"
+HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
+        <TextBlock Text="?" FontSize="36" Grid.Row="3" Grid.Column="5"
+HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" Foreground="#FF00B3FF"/>
+        <TextBlock x:Name="timeTextBlock" HorizontalAlignment="Left" Grid.Row="4" TextWrapping="Wrap" Text="Elapsed time" VerticalAlignment="Top" Grid.ColumnSpan="4" FontSize="36" MouseDown="timeTextBlock_MouseDown" Foreground="#FF00B3FF"/>
     </Grid>
 </Window>
